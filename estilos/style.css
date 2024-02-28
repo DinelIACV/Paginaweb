@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Sri;
+    src: url(../letras/Sriracha/Sriracha-Regular.ttf);
+}
+@font-face {
+    font-family: Edu;
+    src: url(../letras/Edu_SA_Beginner/EduSABeginner-VariableFont_wght.ttf);
+    
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font: 18px Sri;
+}
+
+
+header{
+    background-color: #052C69;
+    
+}
+header > h2{
+    padding-left: 10px;
+    color: white;
+    font: 20px Edu;
+}
+header > p{
+    text-align: center;
+    color: white;
+    font: 20px Edu;
+}
+body{
+ 
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, 
+        #e73c73, #23a6d5, #23d5ab) repeat;
+        background-size: 300% 300%;
+    background-color: black;
+    
+    
+    animation: grandef 20s ease alternate infinite;
+}
+@keyframes grandef{
+    0%{
+        background-position: 0% 50%;
+    }
+    25%{
+        background-position: 50% 25%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    75%{
+        background-position: 75% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}

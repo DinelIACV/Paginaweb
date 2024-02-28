@@ -1,0 +1,267 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Sri;
+    src: url(../letras/Sriracha/Sriracha-Regular.ttf);
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 600px) and (orientation: portrait){
+    header > h2{
+        font-size: 15px;
+    }
+    header > p{
+        font-size: 23px;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    nav {
+        background-color: #EBE8A4;
+        width: 40px;
+        height: auto;
+        cursor: pointer;
+        box-shadow: 3px 0px 0px #01E122;
+
+    
+    }
+    nav > i {
+        padding: 10px;
+    }
+    nav:hover{
+        width: 200px;
+    }
+    nav > ul > a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        font-size: 15px;
+        position: relative;
+    }
+    nav > ul > a:hover{
+        background-color: #EBE8A4;
+        color: white;
+        transition: 2s;
+        box-shadow: 3px 0px 0px white;
+    }
+    nav > ul > a > span.txt{
+        text-indent: 20px;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 600px) and (orientation: landscape){
+    header > h2{
+        font-size: 15px;
+    }
+    header > p{
+        font-size: 23px;
+    }
+    nav {
+        background-color: #E0DAAF;
+        cursor: pointer;
+    }
+    nav > i.material-icons{
+        display: none;
+    }
+    nav > ul > a{
+        display: inline-flex;
+        text-decoration: none;
+        color: white;
+        padding-top: 10px;
+        font-size: 15px;
+        position: relative;
+        height: 30px;
+    }
+    nav > ul > a:hover{
+        background-color: #63147A;
+        color: white;
+        transition: 2s;
+        box-shadow: 3px 0px 0px white;
+    } 
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    header > h2{
+        font-size: 15px;
+    }
+    header > p{
+        font-size: 25px;
+    }
+    body{
+        background-image: 
+        linear-gradient(-45deg, #ee7752, 
+        #e73c73, #23a6d5, #23d5ab),
+        url(../fotos_fundo/nave_espacial.png);
+        width: 100vw;
+        height: 100vh;
+    background-blend-mode: screen;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: grandef 50s ease alternate infinite;
+    }
+    nav {
+        background-color: #E0DAAF;
+        width: 60px;
+        height: auto;
+        cursor: pointer;
+        box-shadow: 3px 0px 0px #01E122;
+    
+    }
+    nav > i {
+        padding: 10px;
+    }
+    nav:hover{
+        width: 220px;
+    }
+    nav > ul > a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        
+        position: relative;
+    }
+    nav > ul > a:hover{
+        background-color: #63147A;
+        color: white;
+        transition: 2s;
+        box-shadow: 3px 0px 0px red;
+    }
+    nav >ul > a > span.material-icons{
+        text-indent: 15px;
+    }
+    nav > ul > a > span.txt{
+        text-indent: 20px;
+        font-size: 25px;
+        overflow: hidden;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992Px){
+    header > h2{
+        font-size: 16px;
+    }
+    header > p{
+        font-size: 26px;
+    }
+    body{
+        background-image: 
+        linear-gradient(-45deg, #ee7752, 
+        #e73c73, #23a6d5, #23d5ab),
+        url(../fotos_fundo/nave_espacial.png);
+        width: 100vw;
+        height: 100vh;
+    background-blend-mode: screen;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    animation: grandef 10s ease alternate infinite;
+    }
+    nav> i.material-icons{
+        display: none;
+    }
+    nav >ul > a:hover{
+        background-color: green;
+        transition: 2s;
+    }
+    nav >ul > a {
+        text-decoration: none;
+        padding: 20px;
+        display: inline-flex;
+        background-color: gray;
+        color: white;
+        border-radius: 0px 10px;
+        
+
+    }
+    nav > ul >a > span.txt{
+        font-size: 18px;
+        text-indent: 5px;
+    }
+    
+    
+}
+@media screen and (min-width: 993px) and (max-width: 1200px){
+
+    header{
+        padding: 20px;
+        background-color: #052C69;
+        color: white;
+    }
+    header > h2{
+        font: 16px Edu;
+    }
+    header > p{
+        font-size: 30px;
+        font-family: Edu;
+        font-weight: bolder;
+    }
+    nav > i.material-icons{
+        display: none;
+    }
+    nav{
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 39px;
+        
+    }
+    nav > ul > a{
+        text-decoration: none;
+        background-color: #83E086;;
+        padding: 10px;
+        display: inline-flex; 
+        mix-blend-mode: screen; 
+    }
+    nav ul a:hover{
+        background-color: #150719;
+        transition: 3s;
+        color: black;
+    }
+    nav > ul > a > span{
+        color: white;
+        
+    }
+    
+}
+@media screen and (min-width: 1201px) {
+    header{
+        padding: 20px;
+        background-color: #052C69;
+        color: white;
+    }
+    header > h2{
+        font: 19px Edu;
+    }
+    header > p{
+        font-size: 30px;
+        font-family: Edu;
+        font-weight: bolder;
+    }
+    nav > i.material-icons{
+        display: none;
+    }
+    nav{
+        padding-top: 10px;
+        padding-left: 10px;  
+    }
+    nav > ul > a{
+        text-decoration: none;
+        background-color: #4DA8F5;
+        padding: 10px;
+        display: inline-flex;
+        color: white;
+        font: 45px Sri;
+        
+    
+    }
+    nav ul a:hover{
+        background-color: #150719;
+        transition: 3s;
+    }
+    nav > ul > a > span{
+        color: white;
+        
+    }
+    
+}
+

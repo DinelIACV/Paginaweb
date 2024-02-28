@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@font-face {
+    font-family:Sriracha ;
+    src: url(../../letras/Sriracha/Sriracha-Regular.ttf);
+}
+body{
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, 
+    #e73c73, #23a6d5, #23d5ab) 
+    no-repeat;
+    background-size: 300% 300%;
+
+    animation: grandef 10s ease alternate infinite;
+    font: 18px Sriracha;
+}
+@keyframes grandef{
+    0%{
+        background-position: 0% 50%;
+    }
+    25%{
+        background-position: 50% 25%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    75%{
+        background-position: 75% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+ }
+main{
+    text-align: justify;
+}
+div{
+    background-color: white;
+    height: auto;
+    width: 270px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 5px;
+    font: 15px Sriracha;
+    margin: auto;
+    
+}
+td{
+    border: 2px solid black;
+    padding: 5px;
+}
+thead{
+    background-color: #EBE8A4;
+}
+@media screen and (min-width: 200px) and (max-width: 399px){
+    div{
+        background-color: white;
+        height: auto;
+        width: 290px;
+        margin: auto;
+    }
+    td.quebra{
+        display: flex;
+    }
+
+
+}
+@media screen and (min-width: 400px) and (max-width: 600px){
+    div{
+        background-color: white;
+        height: auto;
+        width: 350px;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 768px){
+    div{
+        background-color: white;
+        height: auto;
+        width: 500px;
+        margin: auto;
+    }
+    table{
+        border-collapse: collapse;
+        width: 5px;
+        font: 18px Sriracha;
+    }
+    td{
+        border: 2px solid black;
+        padding: 2px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 992px){
+    div{
+        background-color: white;
+        height: auto;
+        width: 580px;
+        margin: auto;
+    }
+    table{
+        border-collapse: collapse;
+        width: 10px;
+        font: 19px Sriracha;
+    }
+    td{
+        border: 2px solid black;
+        padding: 13px;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    div{
+        background-color: white;
+        height: auto;
+        width: 650px;
+        margin: auto;
+    }
+    table{
+        border-collapse: collapse;
+        width: 10px;
+        font: 19px Sriracha;
+    }
+    td{
+        border: 2px solid black;
+        padding: 13px;
+    }
+}
+@media screen and (min-width: 1201px) {
+    div{
+        background-color: white;
+        height: auto;
+        width: 780px;
+        margin: auto;
+    }
+    table{
+        border-collapse: collapse;
+        width: 10px;
+        font: 21px Sriracha;
+    }
+    td{
+        border: 2px solid black;
+        padding: 13px;
+    }
+}

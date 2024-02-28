@@ -1,0 +1,123 @@
+@charset "UTF-8";
+@font-face {
+   font-family: Sri;
+   src: url(../../letras/Sriracha/Sriracha-Regular.ttf);
+}
+body{
+   height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, 
+    #e73c73, #23a6d5, #23d5ab) 
+    no-repeat;
+    background-size: 300% 300%;
+
+    animation: grandef 10s ease alternate infinite;
+   font-family: Sri;
+   font-weight: normal;
+}
+@keyframes grandef{
+   0%{
+       background-position: 0% 50%;
+   }
+   25%{
+       background-position: 50% 25%;
+   }
+   50%{
+       background-position: 100% 50%;
+   }
+   75%{
+       background-position: 75% 50%;
+   }
+   100%{
+       background-position: 0% 50%;
+   }
+}
+ div{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 650px;
+    padding: auto;
+    text-align: justify;
+    text-indent: 20px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+ }
+
+ @media screen and (min-width: 270px) and (max-width: 400px) {
+   div{
+      width: auto;
+      height: auto;
+      padding: 10px;
+   }
+ }
+ @media screen and (min-width: 401px) and (max-width: 600px){
+   div{
+      margin: auto;
+      width: 380px;
+      height: auto;
+      padding: 10px;
+   }
+   picture > img > source #cen{
+      margin: auto;
+   }
+
+ }
+ @media screen and (min-width: 601px) and (max-width: 768px){
+   div{
+      margin: auto;
+      width: 550px;
+      height: auto;
+      padding: 10px;
+   }
+   div > p#txt{
+      font-size: 20px;
+   }
+   picture > img{
+      margin: center;
+   }
+ }
+ @media screen and (min-width: 769px) and (max-width: 992px){
+   div{
+      margin: auto;
+      width: 650px;
+      height: auto;
+      padding: 10px;
+   }
+   div > p#txt{
+      font-size: 25px;
+   }
+   picture > img{
+      margin: auto;
+   }
+ }
+ @media screen and (min-width: 993px) and (max-width: 1200px){
+   div{
+      margin: auto;
+      width: 950px;
+      height: auto;
+      padding: 10px;
+   }
+   div > p#txt{
+      font-size: 35px;
+      text-indent: 20px;
+   }
+   picture > img > source{
+      margin: auto;
+   }
+ }
+ @media screen and (min-width: 1201px){
+   div{
+      margin: auto;
+      width: 950px;
+      height: auto;
+      padding: 10px;
+   }
+   div > p#txt{
+      font-size: 35px;
+      text-indent: 20px;
+   }
+   picture > img > source{
+      margin: auto;
+   }
+ }
+
