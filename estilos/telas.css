@@ -3,9 +3,23 @@
     font-family: Sri;
     src: url(../letras/Sriracha/Sriracha-Regular.ttf);
 }
+@media screen  and (max-width:199px) and (min-height: 240px){
+    nav{
+        background-color: rgb(226, 192, 192);
+    }
+    nav > i.material-icons{
+        display: none;
+    }
+    nav > ul > a{
+        text-decoration: none;
+    }
+    nav > ul > a > span{
+        color: rgb(78, 78, 126);
+    }
+    
+}
 
-
-@media screen and (min-width: 200px) and (max-width: 600px) and (orientation: portrait){
+@media screen and (min-width: 200px) and (max-width: 600px) and (min-height: 400px) and (orientation: portrait){
     header > h2{
         font-size: 15px;
     }
@@ -50,7 +64,7 @@
         overflow: hidden;
     }
 }
-@media screen and (min-width: 200px) and (max-width: 768px) and (orientation: landscape){
+@media screen and (max-width: 768px) and (max-height: 768px) and (orientation: landscape){
     header > h2{
         font-size: 15px;
     }
@@ -68,8 +82,11 @@
         display: inline-flex;
         text-decoration: none;
         color: white;
+        margin: auto;
         padding-top: 10px;
+        padding: 5px;
         font-size: 15px;
+        position: relative;
         height: 30px;
     }
     nav > ul > a:hover{
@@ -79,7 +96,7 @@
         box-shadow: 3px 0px 0px white;
     } 
 }
-@media screen and (min-width: 601px) and (max-width: 768px) {
+@media screen and (min-width: 601px) and (max-width: 768px)  and (orientation: portrait){
     header > h2{
         font-size: 15px;
     }
@@ -135,6 +152,7 @@
         overflow: hidden;
     }
 }
+
 @media screen and (min-width: 769px) and (max-width: 992Px){
     header > h2{
         font-size: 16px;
