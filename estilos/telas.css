@@ -19,7 +19,7 @@
     
 }
 
-@media screen and (min-width: 200px) and (max-width: 600px) and (min-height: 400px) and (orientation: portrait){
+@media screen and (min-width: 200px) and (max-width: 600px){
     header > h2{
         font-size: 15px;
     }
@@ -36,8 +36,6 @@
         height: auto;
         cursor: pointer;
         box-shadow: 3px 0px 0px #01E122;
-
-    
     }
     nav > i {
         padding: 10px;
@@ -103,18 +101,6 @@
     header > p{
         font-size: 25px;
     }
-    body{
-        background-image: 
-        linear-gradient(-45deg, #ee7752, 
-        #e73c73, #23a6d5, #23d5ab),
-        url(../fotos_fundo/nave_espacial.png);
-        width: 100vw;
-        height: 100vh;
-    background-blend-mode: screen;
-    background-size: contain;
-    background-repeat: no-repeat;
-    animation: grandef 50s ease alternate infinite;
-    }
     nav {
         background-color: #E0DAAF;
         width: 60px;
@@ -160,20 +146,6 @@
     header > p{
         font-size: 26px;
     }
-    body{
-        background-image: 
-        linear-gradient(-45deg, #ee7752, 
-        #e73c73, #23a6d5, #23d5ab),
-        url(../fotos_fundo/nave_espacial.png);
-        width: 100vw;
-        height: 100vh;
-    background-blend-mode: screen;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    
-    animation: grandef 10s ease alternate infinite;
-    }
     nav> i.material-icons{
         display: none;
     }
@@ -188,15 +160,11 @@
         background-color: gray;
         color: white;
         border-radius: 0px 10px;
-        
-
     }
     nav > ul >a > span.txt{
         font-size: 18px;
         text-indent: 5px;
     }
-    
-    
 }
 @media screen and (min-width: 993px) and (max-width: 1200px){
 
@@ -268,8 +236,6 @@
         display: inline-flex;
         color: white;
         font: 45px Sri;
-        
-    
     }
     nav ul a:hover{
         background-color: #150719;
@@ -277,8 +243,6 @@
     }
     nav > ul > a > span{
         color: white;
-        
     }
-    
 }
 
